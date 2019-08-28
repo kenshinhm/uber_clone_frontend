@@ -1,5 +1,3 @@
-import React from "react";
+import PhoneLoginContainer from "./phoneLoginContainer";
 
-const PhoneLogin = () => <span>lala</span>;
-
-export default PhoneLogin;
+export default PhoneLoginContainer;
