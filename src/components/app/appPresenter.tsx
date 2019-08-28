@@ -5,7 +5,7 @@ import AddPlace from "../../routes/addPlace";
 import EditAccount from "../../routes/editAccount";
 import FindAddress from "../../routes/findAddress";
 import Home from "../../routes/home";
-import OutHome from "../../routes/outHome";
+import Login from "../../routes/login";
 import PhoneLogin from "../../routes/phoneLogin";
 import Place from "../../routes/place";
 import Ride from "../../routes/ride";
@@ -19,7 +19,7 @@ interface IProps {
 
 const LoggedOutRoutes: React.SFC = () => (
     <Switch>
-        <Route path={"/"} exact={true} component={OutHome}/>
+        <Route path={"/"} exact={true} component={Login}/>
         <Route path={"/phone-login"} component={PhoneLogin}/>
         <Route path={"/verify-phone/:number"} component={VerifyPhone}/>
         <Route path={"/social-login"} component={SocialLogin}/>
