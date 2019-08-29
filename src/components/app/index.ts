@@ -1,3 +1,5 @@
 import appContainer from "./appContainer";
 
-export default appContainer;
+const App = appContainer;
+
+export default App;

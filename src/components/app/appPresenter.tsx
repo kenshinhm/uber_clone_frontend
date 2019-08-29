@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import React from "react";
 import {BrowserRouter, Redirect, Route, Switch} from "react-router-dom";
 import AddPlace from "../../routes/addPlace";
@@ -45,8 +44,8 @@ const AppPresenter: React.SFC<IProps> = ({isLoggedIn}) => (
     </BrowserRouter>
 );
 
-AppPresenter.propTypes = {
-    isLoggedIn: PropTypes.bool.isRequired
-};
+// AppPresenter.propTypes = {
+//     isLoggedIn: PropTypes.bool.isRequired
+// };
 
 export default AppPresenter;
